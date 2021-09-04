@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ejercicio_viernes
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int suma1, suma2 ;
+            int num1, num2,num3,num4;
+            string linea;
+
+            Console.Write("ingrese el primer valor: ");
+            linea = Console.ReadLine();
+            num1 = int.Parse(linea);
+
+            Console.Write("ingrese el segundo valor: ");
+            linea = Console.ReadLine();
+            num2 = int.Parse(linea);
+
+            Console.Write("ingrese el tercer valor: ");
+            linea = Console.ReadLine();
+            num3 = int.Parse(linea);
+
+            Console.Write("ingrese el cuarto valor: ");
+            linea = Console.ReadLine();
+            num4 = int.Parse(linea);
+
+
+            suma1 = num1 + num2;
+            suma2 = num3 + num4;
+
+            Console.Write("El resultado  de la suma 1 es: " + suma1 + Environment.NewLine);
+            
+            Console.Write("El resultado de la suma 2 es: " + suma2 );
+
+            Console.ReadKey();
+            
+        }
+
+    }
+}
