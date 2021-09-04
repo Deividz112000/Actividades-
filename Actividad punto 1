@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ejercicio_viernes
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            int p, l;
+            string linea;
+
+            Console.Write("ingrese el lado: ");
+            linea = Console.ReadLine();
+            l = int.Parse(linea);
+
+            p = 4 * l;
+
+            Console.Write("El valor del perimetro es: " + p);
+
+            Console.ReadKey();
+
+        }
+
+    }
+}
