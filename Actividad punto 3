@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ejercicio_viernes3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int total, suma2 ;
+            int cant; 
+            int precio;
+           
+
+
+            string linea;
+
+            Console.Write("ingrese el primer valor:$ ");
+            linea = Console.ReadLine();
+            precio = int.Parse(linea);
+
+            Console.Write("ingrese la cantidad: ");
+            linea = Console.ReadLine();
+            cant = int.Parse(linea);
+           
+            total = precio * cant;
+            
+
+            Console.Write("El valor a pagar:$ " + total + Environment.NewLine);
+            
+
+            Console.ReadKey();
+            
+        }
+
+    }
